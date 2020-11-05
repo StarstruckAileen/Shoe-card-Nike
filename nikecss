@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.subhead{
+  font-size:30px;
+}
+.faded{
+  color:grey;
+}
+img[id="locator"]{
+  width:20px;
+}
+img[id="nikeLogo"]{
+  width:60px;
+  height:60px;
+  border-radius:55%;
+}
+img:nth-child(2){
+  width:400px;
+}
+#time .faded{
+  text-align:right;
+}
+#tags{
+  color:green;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
